@@ -19,6 +19,7 @@ def print_config(config):
         print("{} -->   {}".format(keystr, val))
     print("**************** MODEL CONFIGURATION ****************")
 
+
 def main():
     args = load_arguments()
     config = eval(args.prototype)()
